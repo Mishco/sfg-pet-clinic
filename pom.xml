@@ -15,13 +15,14 @@
     </parent>
     <groupId>com.mishco</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
     <properties>
         <java.version>1.8</java.version>
         <start-class>com.mishco.sfgpetclinic.SfgPetClinicApplication</start-class>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
     <build>
@@ -40,8 +41,6 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>
-
-        </developerConnection>
+        <developerConnection>scm:git:https://github.com/Mishco/sfg-pet-clinic.git</developerConnection>
     </scm>
 </project>
